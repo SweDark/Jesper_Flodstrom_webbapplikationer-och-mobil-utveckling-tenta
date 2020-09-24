@@ -53,6 +53,7 @@ gatsby-browser.js & gatsby-ssr.js - these two files are always the same, since i
 gatsby-config.js - rules for mapping pages, posts, images etc can be found here. Even the meta-data is in this file!
 
 5. **You now know what is where, thus you can now start coding!**
+
 You can experiment with queries on `http://localhost:8000/___graphql`.
 
 <!-- auto generated-content:start -->
