@@ -36,6 +36,10 @@ components folder - Where you put all the components of the website. An example 
 
 elements folder - This is where you add all your style components for all the components.
 
+images folder - You can put images that should be global here.
+
+pages folder - You can have your pages here.
+
 posts folder - all of the articles can be found here.
 
 templates folder - this is where the website is built up. Every file in here is another page.
@@ -48,7 +52,7 @@ gatsby-browser.js & gatsby-ssr.js - these two files are always the same, since i
 
 gatsby-config.js - rules for mapping pages, posts, images etc can be found here. Even the meta-data is in this file!
 
-
+5. **You now know what is where, thus you can now start coding!**
 
 
 

@@ -104,7 +104,8 @@ export const PostWrapper = styled.main`
   ul,
   ol {
     color: ${props => props.theme.colors.dark1};
-    margin: 1rem 0 1rem 2rem;
+    font-weight: 400;
+    margin: 1rem 0 2rem 2.5rem;
   }
 
   li {
@@ -115,8 +116,8 @@ export const PostWrapper = styled.main`
     font-family: ${props => props.theme.fonts.code};
     font-size: 1rem;
     line-height: 1.875rem;
-    color: ${props => props.theme.colors.light1};
-    background-color: ${props => props.theme.colors.dark3};
+    color: ${props => props.theme.colors.main1};
+    background-color: ${props => props.theme.colors.dark2};
     padding: 0 0.3rem;
   }
 
@@ -124,7 +125,7 @@ export const PostWrapper = styled.main`
     border: 0;
     height: 1px;
     background: ${props => props.theme.colors.blue};
-    opacity: 0.5;
+    opacity: 0.6;
     margin-top: 2rem;
   }
 
