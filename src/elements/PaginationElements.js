@@ -10,6 +10,7 @@ export const PaginationWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 1.5rem -1rem 0;
+  width: 100%;
 
   a:nth-child(1) {
     /* "previous page" button */
