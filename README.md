@@ -1,4 +1,5 @@
 1.  **Have the needed programs downloaded.**
+
 To download and run the project, you need to have <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://www.gatsbyjs.com/docs/quick-start/"> Gatsby</a> and some kind of code-editor (preferably <a href="https://code.visualstudio.com/">Visual Studio Code<a/>).
 If you're on a windows computer, it's prefered to download <a href="https://git-scm.com/">git</a> so you can use git bash as a command prompt to be able to use linux commands instead of the ones for windows.
 
@@ -9,6 +10,7 @@ If you're on a windows computer, it's prefered to download <a href="https://git-
   gatsby new gatsby-blog https://github.com/SweDark/Jesper_Flodstrom_webbapplikationer-och-mobil-utveckling-tenta && cd gatsby-blog && code .
 ```
 2. **download all the packages needed for the project.**
+
 When you've gotten into the project, you'll need to open a new terminal in the code-editor. In the terminal you'll have to write
 
 ```shell
@@ -17,6 +19,7 @@ npm install
 ```
 
 3. **Check if everything's working!**
+
 After all the packages has been installed, you can check if everything works by doing this in the terminal:
 
 ```shell
@@ -28,13 +31,21 @@ Now, to see if it's running correctly, you can enter `http://localhost:8000` in 
 4. **description of folders**
 
 Here's a quick description of things you need to know:
+
 components folder - Where you put all the components of the website. An example of components that you can find here will be the navigation, content and footer.
+
 elements folder - This is where you add all your style components for all the components.
+
 posts folder - all of the articles can be found here.
+
 templates folder - this is where the website is built up. Every file in here is another page.
+
 themes folder - Your theme file, add colors etc that you want to use here and then use them in the elements files instead of hex codes for color etc.
+
 gatsby-node.js - creates the single post pages, and even the amount of pagination pages needed on your allposts page.
+
 gatsby-browser.js & gatsby-ssr.js - these two files are always the same, since it the website won't work sometimes if you don't have it. Global styles are written in this one.
+
 gatsby-config.js - rules for mapping pages, posts, images etc can be found here. Even the meta-data is in this file!
 
 
