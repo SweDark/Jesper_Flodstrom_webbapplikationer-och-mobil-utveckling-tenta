@@ -124,7 +124,7 @@ export const PostWrapper = styled.main`
     border: 0;
     height: 1px;
     background: ${props => props.theme.colors.blue};
-    opacity: 0.3;
+    opacity: 0.5;
     margin-top: 2rem;
   }
 
