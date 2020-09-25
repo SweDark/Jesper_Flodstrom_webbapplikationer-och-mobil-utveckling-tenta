@@ -75,7 +75,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 
-**Tenta Uppgift:**
+## Tenta Uppgift
+
 Från början använde jag mig utav vanlig html, css och javascript. Nu när man testat både pugg och gatsby, så tycker jag att det är smidigare att sitta i gatsby än att göra på det vanliga sättet. Detta beror på att man inte behöver upprepa navigationen på varje html sida som man gör (på det sättet jag skrev vanlig kod var det mycket upprepning av vissa element). Därför tycker jag som enskild åsikt att det är bättre är gatsby än på det vanliga sättet. Dock är min uppfattning utav pug tvärtom, men det kan bero på att vi inte jobbat så mycket med pug.  
 
 
@@ -104,6 +105,7 @@ Slutsatsen är alltså att om man har erfarenhet och ska ha en statisk sida, då
 
 
 Länkar:
+
 https://blog.logrocket.com/is-gatsby-really-that-great-e7b19c4c1c05/
 
 https://medium.com/javascript-in-plain-english/server-side-rendering-for-websites-or-gatsbyvs-next-js-6caed9a79e16 
