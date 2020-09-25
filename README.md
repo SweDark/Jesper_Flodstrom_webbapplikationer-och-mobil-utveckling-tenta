@@ -27,6 +27,7 @@ After all the packages has been installed, you can check if everything works by 
 gatsby develop
 ```
 Now, to see if it's running correctly, you can enter `http://localhost:8000` in your browser. If that worked, then you can start editing the project to your own liking.
+You can also experiment with queries on `http://localhost:8000/___graphql`.
 
 4. **description of folders**
 
@@ -54,7 +55,6 @@ gatsby-config.js - rules for mapping pages, posts, images etc can be found here.
 
 5. **You now know what is where, thus you can now start coding!**
 
-You can experiment with queries on `http://localhost:8000/___graphql`.
 
 
 <!-- auto generated-content:start -->
