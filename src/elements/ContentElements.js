@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const ContentWrapper = styled.main`
   /* This is the styling of the main content, the grid below is used to put the content close to the navigation. It also makes the feature image in desktop mode 
   more like a background. */
-  grid-column: 3 / span 10;
+  grid-column: 2 / span 12;
   grid-row: 2 / span 5;
   background-color: ${props => props.theme.colors.light2};
   padding: ${props =>

@@ -58,9 +58,10 @@ export const Footer = () => {
             <img src={data.instagram.publicURL} alt="Instagram logo" />
           </a>
         </FooterSocialIcons>
-        <P size="xSmall" color="dark2">
-          © 2020 Company. All right reserved.
+        <P size="small" color="dark2">
+          © 2020 The SweDark Company. All right reserved.
         </P>
+        
       </FooterSocialWrapper>
     </FooterWrapper>
   )

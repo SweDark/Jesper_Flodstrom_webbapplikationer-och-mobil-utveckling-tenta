@@ -22,7 +22,7 @@ export const NavWrapper = styled.nav`
     font-size: 1.2rem;
     border-radius: 1rem;
     margin: 0.2rem;
-    color: ${props => props.theme.colors.light1};
+    color: ${props => props.theme.colors.light2};
     
   }
   .navmenu:hover {
@@ -46,8 +46,8 @@ export const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 15px; 
-  right: 20px;
+  top: 20px; 
+  right: 25px;
   z-index: 20;
   display: none;
   display: flex;
@@ -82,9 +82,6 @@ flex-flow: row nowrap;
 
 @media ${props => props.theme.breakpoints.mobile} { 
   /* How stuff should look in the burger menu */
-  
-
-
   flex-flow: column nowrap;
   background-color: ${props => props.theme.colors.main1};
   position: fixed;

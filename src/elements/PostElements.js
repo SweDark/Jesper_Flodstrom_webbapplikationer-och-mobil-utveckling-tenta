@@ -1,15 +1,15 @@
 import styled from "styled-components"
+
+
 export const PostWrapper = styled.main`
   /* Styling for the singlepost page. */
   grid-column: 2 / span 12;
   grid-row: 2 / span 5;
-  background-color: ${props => props.theme.colors.light2};
+  background-color: ${props => props.theme.colors.light3};
   padding: ${props =>
-    `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};
-  box-shadow: ${props => props.theme.shadows.shadow1};
+    `${props.theme.spacings.small} ${props.theme.spacings.xxLarge}`}; 
   z-index: 10;
   width: 100%;
-
 
   h1,
   h2,

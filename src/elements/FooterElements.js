@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const FooterWrapper = styled.footer`
   /* main wrapper for the footer */
-  grid-column: 2 / span 12;
+  grid-column: 1 / span 14;
   min-height: 11.25rem;
   padding: 3.5rem 0;
   display: flex;
