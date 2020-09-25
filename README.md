@@ -1,4 +1,4 @@
-1.  **Have the needed programs downloaded.**
+1.  **Have the necessary programs downloaded.**
 
 To download and run the project, you need to have <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://www.gatsbyjs.com/docs/quick-start/"> Gatsby</a> and some kind of code-editor (preferably <a href="https://code.visualstudio.com/">Visual Studio Code<a/>).
 If you're on a windows computer, it's prefered to download <a href="https://git-scm.com/">git</a> so you can use git bash as a command prompt to be able to use linux commands instead of the ones for windows.
