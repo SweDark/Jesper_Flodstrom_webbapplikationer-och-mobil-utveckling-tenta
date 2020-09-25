@@ -83,23 +83,23 @@ Från början använde jag mig utav vanlig html, css och javascript. Nu när man
 Men även om jag tycker att gatsby är smidigare, så beror den slutsatsen på vem det är som kodar. För nybörjare skulle gatsby vara svårt, men för de som har tidigare erfarenhet är det smidigare eftersom vi redan förstår hur programmering funkar och kan därför lättare förstå vad som händer i koden.
 
 
-Iallafall, det finns fler anledningar till att gatsby är bättre än det vanliga sättet. Ett utav anledningarna är att det laddar lika snabbt som andra statiska sidor. Detta beror på att gatsby laddar bara det viktigaste html, css, javascript och data. Sedan förhämtas resurser så att man kan klicka utan mycket laddningstid.
+Iallafall, det finns fler anledningar till att gatsby är bättre än det vanliga sättet. Ett utav anledningarna är att det laddar lika snabbt som andra statiska sidor(länk 1 och 2). Detta beror på att gatsby laddar bara det viktigaste html, css, javascript och data. Sedan förhämtas resurser så att man kan klicka utan mycket laddningstid.
 
 
-När jag kollade vidare mot program som man kan använda istället för gatsby, kom jag in lite på Next.js. Om man vill ha snabbt laddande sidor, då är gatsby bättre än next.js eftersom next.js använder sig utav ssr (server-side rendering) istället för gatsby’s statisk renderade sidor. Detta gör att Next.js måste först få en förfrågan från en användare, och den förfrågan måste skickas från servern för att hämta data innan den får tillbaka data för att sedan skicka tillbaka till användarens browser. 
+När jag kollade vidare mot program som man kan använda istället för gatsby, kom jag in lite på Next.js(länk 3). Om man vill ha snabbt laddande sidor, då är gatsby bättre än next.js eftersom next.js använder sig utav ssr (server-side rendering) istället för gatsby’s statisk renderade sidor. Detta gör att Next.js måste först få en förfrågan från en användare, och den förfrågan måste skickas från servern för att hämta data innan den får tillbaka data för att sedan skicka tillbaka till användarens browser. 
 
 
-Gatsby gör på ett bättre sätt, eftersom den först gör sidorna till statiska html sidor. Därefter hämtar den data när den kompileras. Filerna som skapas blir till exempel index.html, och de filerna blir tillgängliga till användaren på direkten. Detta gör att stegen i next.js där den skickar en förfrågan till servern för att hämta data etc behövs inte i gatsby, då all data har skapats som statiska objekt vid kompilationen. En annan sak som är bättre med gatsby är att det finns många plugins, medan Next.js inte har några.
+(länk 3) Gatsby gör på ett bättre sätt, eftersom den först gör sidorna till statiska html sidor. Därefter hämtar den data när den kompileras. Filerna som skapas blir till exempel index.html, och de filerna blir tillgängliga till användaren på direkten. Detta gör att stegen i next.js där den skickar en förfrågan till servern för att hämta data etc behövs inte i gatsby, då all data har skapats som statiska objekt vid kompilationen. En annan sak som är bättre med gatsby är att det finns många plugins, medan Next.js inte har några.
 
 
-Sedan om vi jämför gatsby mot Jekyll, som använder sig också utav statiska sidor, då blir skillnaden på om man har mycket kunskaper i programmering eller inte. Man behöver lära sig mer i gatsby, och man behöver mer erfarenhet för att använda gatsby på ett bra sätt. Jekyll har mindre delar som man behöver lära sig. Dock så har Jekyll inte PWA (Progressive Web Application), medan gatsby har det. Detta betyder att gatsby ska fungera på alla standard plattformar samt man kan nå applikationen genom media etc, och inte genom app stores. Om man vill att applikationen ska synas överallt, då är gatsby bättre än jekyll, men om applikationen bara ska finnas på android eller apple app store, då skulle jekyll funka bättre. 
+(länk 4 och 5)Sedan om vi jämför gatsby mot Jekyll, som använder sig också utav statiska sidor, då blir skillnaden på om man har mycket kunskaper i programmering eller inte . Man behöver lära sig mer i gatsby, och man behöver mer erfarenhet för att använda gatsby på ett bra sätt. Jekyll har mindre delar som man behöver lära sig. Dock så har Jekyll inte PWA (Progressive Web Application), medan gatsby har det. Detta betyder att gatsby ska fungera på alla standard plattformar samt man kan nå applikationen genom media etc, och inte genom app stores. Om man vill att applikationen ska synas överallt, då är gatsby bättre än jekyll, men om applikationen bara ska finnas på android eller apple app store, då skulle jekyll funka bättre. 
 
 
-Alla tre (Gatsby, Next.js och Jekyll) har sitt eget sätt att göra SEO, vilket gör att om man är ute efter en hög sido-ranking, då kvittar det vilken utav de 3 man använder, eftersom rankingen kommer att bli hög så länge man använder SEO.
+ Alla tre (Gatsby, Next.js och Jekyll) har sitt eget sätt att göra SEO, vilket gör att om man är ute efter en hög sido-ranking, då kvittar det vilken utav de 3 man använder, eftersom rankingen kommer att bli hög så länge man använder SEO.
 
 **Slutsats:**
 
-Slutsatsen som jag har kommit fram till är att om man är en erfaren programmerare, då är gatsby bättre om man kollar på hastighet och tillgänglighet. Om man inte är så insatt i programmering skulle jekyll funka bra, eftersom det är färre moment att lära sig, men man får inte samma tillgänglighet som man får genom gatsby. Samma sak händer om man kollar hastighet emot Next.js. Men om man har en databas kopplat så kan man inte direkt använda gatsby eftersom gatsby inte använder databaser. Om den använde sig utav databaser, då hade hatigheten gått ner till samma som Next.js, vilket i sådana fall skulle göra gatsby till en SSR istället för statisk webbplats. 
+Slutsatsen som jag har kommit fram till är att om man är en erfaren programmerare, då är gatsby bättre om man kollar på hastighet och tillgänglighet (länk 1, 2, 5). Om man inte är så insatt i programmering skulle jekyll funka bra, eftersom det är färre moment att lära sig, men man får inte samma tillgänglighet som man får genom gatsby(länk 4, 5). Samma sak händer om man kollar hastighet emot Next.js (länk 3). Men om man har en databas kopplat så kan man inte direkt använda gatsby eftersom gatsby inte använder databaser (länk 6). Om den använde sig utav databaser, då hade hatigheten gått ner till samma som Next.js, vilket i sådana fall skulle göra gatsby till en SSR istället för statisk webbplats (länk 3). 
 
 
 Slutsatsen är alltså att om man har erfarenhet och ska ha en statisk sida, då är gatsby bra att använda. Om man är en nybörjare som kanske inte vill lära sig många saker som i gatsby, då kan man använda Jekyll. Men om man har en webbplats som inte är statisk, då är Next.js ett bra alternativ.
@@ -107,15 +107,15 @@ Slutsatsen är alltså att om man har erfarenhet och ska ha en statisk sida, då
 
 Länkar:
 
-https://blog.logrocket.com/is-gatsby-really-that-great-e7b19c4c1c05/
+1. https://blog.logrocket.com/is-gatsby-really-that-great-e7b19c4c1c05/
 
-https://medium.com/javascript-in-plain-english/server-side-rendering-for-websites-or-gatsbyvs-next-js-6caed9a79e16 
+2. http://russelljanderson.com/choosing-gatsby/
 
-http://russelljanderson.com/choosing-gatsby/
+3. https://medium.com/javascript-in-plain-english/server-side-rendering-for-websites-or-gatsbyvs-next-js-6caed9a79e16 
 
- https://dev.to/pagepro_agency/is-gatsbyjs-the-best-framework-for-building-static-websites-what-are-the-other-alternatives-1lbo 
+4. https://dev.to/pagepro_agency/is-gatsbyjs-the-best-framework-for-building-static-websites-what-are-the-other-alternatives-1lbo 
 
-https://medium.com/@moqod_development/advantages-and-disadvantages-of-progressive-web-apps-6f019223cb17
+5. https://medium.com/@moqod_development/advantages-and-disadvantages-of-progressive-web-apps-6f019223cb17
 
-https://dev.to/patricksevat/so-what-database-does-gatsby-use-545f
+6. https://dev.to/patricksevat/so-what-database-does-gatsby-use-545f
 
