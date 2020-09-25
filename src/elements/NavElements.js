@@ -82,6 +82,9 @@ flex-flow: row nowrap;
 
 @media ${props => props.theme.breakpoints.mobile} { 
   /* How stuff should look in the burger menu */
+  
+
+
   flex-flow: column nowrap;
   background-color: ${props => props.theme.colors.main1};
   position: fixed;
@@ -89,10 +92,15 @@ flex-flow: row nowrap;
   top: 0;
   right: 0;
   height: 100vh; 
-  width: 40vh; 
+  width: 35vh; 
   padding-top: 3.5rem;
   transition: transform 0.3s ease-in-out;
   z-index: 15;
+
+   .navmenu{
+    border-radius: 0rem;
+    margin: 0;
+  } 
 
   ul{
     list-style: none;
