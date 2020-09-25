@@ -9,7 +9,6 @@ export const PostWrapper = styled.main`
   box-shadow: ${props => props.theme.shadows.shadow1};
   z-index: 10;
   width: 100%;
-  opacity: 0.83;
 
 
   h1,
@@ -27,7 +26,7 @@ export const PostWrapper = styled.main`
   h4,
   h5,
   h6 {
-     margin-top: 1rem; 
+    margin-top: 1rem;
   }
 
   h1 {
@@ -177,3 +176,4 @@ export const PostWrapper = styled.main`
     }
   }
 `
+
