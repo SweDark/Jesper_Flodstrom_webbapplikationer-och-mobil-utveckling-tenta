@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import RightNav from './RightNav';
+import NavMenu from './RightNav';
 import { StyledBurger} from '../../elements'
 
-const Burger = () => {
+const Hamburger = () => {
   const [open, setOpen] = useState(false)
   
   return (
@@ -12,8 +12,8 @@ const Burger = () => {
         <div />
         <div /> 
       </StyledBurger>
-      <RightNav open={open}/>
+      <NavMenu open={open}/>
     </>
   )
 }
-export default Burger
+export default Hamburger

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Ul} from '../../elements'
 import {Link} from "gatsby"
-const RightNav = ({ open }) => {
+const NavMenu = ({ open }) => {
   return (
     <Ul open={open}>
       <li><Link to="/" className="navmenu">Home</Link></li>
@@ -10,4 +10,4 @@ const RightNav = ({ open }) => {
     </Ul>
   )
 }
- export default RightNav
+ export default NavMenu
