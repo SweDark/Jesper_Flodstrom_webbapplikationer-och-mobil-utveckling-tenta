@@ -96,7 +96,7 @@ Sedan om vi jämför gatsby mot Jekyll, som använder sig också utav statiska s
 
 Alla tre (Gatsby, Next.js och Jekyll) har sitt eget sätt att göra SEO, vilket gör att om man är ute efter en hög sido-ranking, då kvittar det vilken utav de 3 man använder, eftersom rankingen kommer att bli hög så länge man använder SEO.
 
-
+**Slutsats:**
 Slutsatsen som jag har kommit fram till är att om man är en erfaren programmerare, då är gatsby bättre om man kollar på hastighet och tillgänglighet. Om man inte är så insatt i programmering skulle jekyll funka bra, eftersom det är färre moment att lära sig, men man får inte samma tillgänglighet som man får genom gatsby. Samma sak händer om man kollar hastighet emot Next.js. Men om man har en databas kopplat så kan man inte direkt använda gatsby eftersom gatsby inte använder databaser. Om den använde sig utav databaser, då hade hatigheten gått ner till samma som Next.js, vilket i sådana fall skulle göra gatsby till en SSR istället för statisk webbplats. 
 
 
